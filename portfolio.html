@@ -4,14 +4,21 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
     <title>Портфоліо</title>
   </head>
   <body>
     <header>
       <nav>
         <a href="./index.html" lang="en">WebStudio</a>
-        <h1>Портфоліо</h1>
-        <ul>
+        <h1 class="visually-hidden">Портфоліо</h1>
+        <ul class="list">
           <li>
             <a href="./index.html">Студія</a>
           </li>
@@ -30,8 +37,8 @@
     </header>
     <main>
       <section>
-        <h2>Фільтри</h2>
-        <ul>
+        <h2 class="visually-hidden">Фільтри</h2>
+        <ul class="list" v>
           <li><button type="button">Усі</button></li>
           <li><button type="button">Веб-сайти</button></li>
           <li><button type="button">Додатки</button></li>
@@ -40,13 +47,15 @@
         </ul>
       </section>
       <section>
-        <h2>Проекти</h2>
-        <ul>
+        <h2 class="visually-hidden">Проекти</h2>
+        <ul class="list">
           <li>
             <a href="#"
               ><img
                 src="./images/tehnocrjak.jpg"
                 alt="відкритий ноутбук з веб-сайтом"
+                width="370"
+                height="294"
               />
               <h3>Технокряк</h3>
               <p>Веб-сайт</p></a
@@ -57,6 +66,8 @@
               ><img
                 src="./images/new orlean.jpg"
                 alt="два гравці в баскетбол"
+                width="370"
+                height="294"
               />
               <h3>Постер <span lang="en">New Orlean vs Golden Star</span></h3>
               <p>Дизайн</p></a
@@ -64,42 +75,72 @@
           </li>
           <li>
             <a href="#"
-              ><img src="./images/seafood.jpg" alt="лого рибного ресторану" />
+              ><img
+                src="./images/seafood.jpg"
+                alt="лого рибного ресторану"
+                width="370"
+                height="294"
+              />
               <h3>Ресторан <span lang="en">Seafood</span></h3>
               <p>Додаток</p></a
             >
           </li>
           <li>
             <a href="#"
-              ><img src="./images/prime.jpg" alt="навушники" />
+              ><img
+                src="./images/prime.jpg"
+                alt="навушники"
+                width="370"
+                height="294"
+              />
               <h3>Проєкт <span lang="en">Prime</span></h3>
               <p>Маркетинг</p></a
             >
           </li>
           <li>
             <a href="#"
-              ><img src="./images/boxes.jpg" alt="дві коробочки з написами" />
+              ><img
+                src="./images/boxes.jpg"
+                alt="дві коробочки з написами"
+                width="370"
+                height="294"
+              />
               <h3>Проєкт <span lang="en">Boxes</span></h3>
               <p>Додаток</p></a
             >
           </li>
           <li>
             <a href="#"
-              ><img src="./images/inspiration.jpg" alt="комп'ютерний монітор" />
+              ><img
+                src="./images/inspiration.jpg"
+                alt="комп'ютерний монітор"
+                width="370"
+                height="294"
+              />
               <h3 lang="en">Inspiration has no Borders</h3>
               <p>Веб-сайт</p></a
             >
           </li>
           <li>
             <a href="#"
-              ><img src="./images/limited edition.jpg" alt="відкрита книга" />
+              ><img
+                src="./images/limited edition.jpg"
+                alt="відкрита книга"
+                width="370"
+                height="294"
+              />
               <h3>Видання <span lang="en">Limited Edition</span></h3>
               <p>Дизайн</p></a
             >
           </li>
           <li>
             <a href="#"
-              ><img src="./images/lab.jpg" alt="бірка з написом" />
+              ><img
+                src="./images/lab.jpg"
+                alt="бірка з написом"
+                width="370"
+                height="294"
+              />
               <h3>Проєкт <span lang="en">LAB</span></h3>
               <p>Маркетинг</p></a
             >
@@ -109,6 +150,8 @@
               ><img
                 src="./images/growing business.jpg"
                 alt="руки працюють за ноутбуком"
+                width="370"
+                height="294"
               />
               <h3 lang="en">Growing Business</h3>
               <p>Додаток</p></a
@@ -120,7 +163,7 @@
     <footer>
       <a href="./index.html" lang="en">WebStudio</a>
       <address>
-        <ul>
+        <ul class="list">
           <li>
             <a
               href="https://goo.gl/maps/J7xKTd2fjaT3zvUT8"
