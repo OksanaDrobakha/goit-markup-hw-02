@@ -6,6 +6,10 @@
   text-decoration: none;
 }
 
+.text {
+  text-transform: none;
+}
+
 .visually-hidden {
   position: absolute;
   white-space: nowrap;
@@ -20,9 +24,50 @@
 }
 
 :root {
-  --main-color: ;
+  --main-color: rgb(33, 150, 243);
+  --accent-color: rgb(24, 140, 232);
+  --secondary-color: rgb(0, 0, 0);
+  --background-color: rgb(255, 255, 255);
+  --text-color: rgb(117, 117, 117);
+  --title-color: rgb(33, 33, 33);
 }
 
 .body {
   font-family: "Roboto", sans-serif;
+  color: var(--text-color);
+  background-color: var(--background-color);
 }
+
+.site-nav .link .current {
+  color: var(--accent-color);
+}
+
+/* ---------HEADER---------- */
+
+.logo {
+}
+
+.logo-web {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--main-color);
+}
+
+.logo-studio {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--secondary-color);
+}
+
+.contact {
+}
+/* ---------FOOTER---------- */
+
+/* -------MAIN STUDIO------- */
+
+/* ------MAIN PORTFOLIO----- */
