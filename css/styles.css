@@ -28,6 +28,8 @@
   --accent-color: rgb(24, 140, 232);
   --secondary-color: rgb(0, 0, 0);
   --background-color: rgb(255, 255, 255);
+  --background-block: rgb(33, 33, 33);
+  --white-color: rgb(255, 255, 255);
   --text-color: rgb(117, 117, 117);
   --title-color: rgb(33, 33, 33);
 }
@@ -38,35 +40,90 @@
   background-color: var(--background-color);
 }
 
-.site-nav .link .current {
-  color: var(--accent-color);
-}
-
 /* ---------HEADER---------- */
-
-.logo {
-}
 
 .logo-web {
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+  letter-spacing: 0.03em;
   color: var(--main-color);
 }
 
 .logo-studio {
   font-family: "Raleway";
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+  letter-spacing: 0.03em;
   color: var(--secondary-color);
 }
 
-.contact {
+.site-nav {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--title-color);
 }
+
+.site-nav:hover,
+.site-nav:focus {
+  color: var(--main-color);
+}
+
+.current {
+  color: var(--accent-color);
+}
+
+.contact {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
+}
+
+.contact:hover,
+.contact:focus {
+  color: var(--main-color);
+}
+
 /* ---------FOOTER---------- */
+
+.background {
+  width: 1600px;
+  height: 252px;
+  background: var(--background-block);
+}
+
+.logo-studio-white {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--white-color);
+}
+
+.address {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--white-color);
+}
+
+.address:hover,
+.address:focus {
+  color: var(--main-color);
+}
 
 /* -------MAIN STUDIO------- */
 
