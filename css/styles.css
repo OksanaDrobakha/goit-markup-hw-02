@@ -24,15 +24,17 @@
 }
 
 :root {
-  --main-color: rgb(33, 150, 243);
-  --accent-color: rgb(24, 140, 232);
-  --secondary-color: rgb(0, 0, 0);
-  --background-color: rgb(255, 255, 255);
-  --background-block: rgb(33, 33, 33);
-  --background-button: rgb(245, 244, 250);
-  --white-color: rgb(255, 255, 255);
-  --text-color: rgb(117, 117, 117);
-  --title-color: rgb(33, 33, 33);
+  --main-color: #2196f3;
+  --accent-color: #188ce8;
+  --secondary-color: #000000;
+  --background-color: #ffffff;
+  --background-block: #2f303a;
+  --background-section: #f5f4fa;
+  --background-button: #f5f4fa;
+  --white-color: #ffffff;
+  --text-color: #757575;
+  --text-contact: rgba(255, 255, 255, 0.6);
+  --title-color: #212121;
 }
 
 body {
@@ -121,6 +123,20 @@ body {
   color: var(--main-color);
 }
 
+.contact-footer {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.02em;
+  color: var(--text-contact);
+}
+
+.contact-footer:hover,
+.contact-footer:focus {
+  color: var(--main-color);
+}
+
 /* -------MAIN STUDIO------- */
 
 .background-hero {
@@ -139,7 +155,7 @@ body {
 .button-order {
   cursor: pointer;
   background-color: var(--main-color);
-  font-family: "Roboto";
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -162,7 +178,6 @@ body {
 }
 
 .function-text {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -177,6 +192,14 @@ body {
   color: var(--title-color);
 }
 
+.background-team {
+  background-color: var(--background-section);
+}
+
+.background-cards {
+  background-color: var(--background-color);
+}
+
 .team-name {
   font-weight: 500;
   font-size: 16px;
@@ -186,7 +209,6 @@ body {
 }
 
 .team-position {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -198,7 +220,7 @@ body {
 .button-filter {
   cursor: pointer;
   background-color: var(--background-button);
-  font-family: "Roboto";
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -221,16 +243,13 @@ body {
 }
 
 .portfolio-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
   color: var(--text-color);
 }
 
-.portfolio-title:hover,
 .portfolio-title:focus,
-.portfolio-text:hover,
 .portfolio-text:focus {
   color: var(--accent-color);
 }
